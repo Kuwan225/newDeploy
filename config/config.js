@@ -14,7 +14,7 @@ module.exports = {
     dialect: "mysql",
   },
   production: {
-    use_ENV_variable: "DATABASE_URL",
+    use_env_variable: "DATABASE_URL",
     dialectOptions: {
       ssl: {
         rejectUnauthorized: false,
